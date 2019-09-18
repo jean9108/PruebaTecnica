@@ -49,7 +49,7 @@ class m190918_030834_sql extends Migration
         $this->createTable('asignacion_habitaciones',[
             'id_asignacion' => $this->primaryKey(),
             'id_tipo' => $this->integer()->notNull(),
-            //'id_acomodacion' => $this->integer()->notNull(),
+            'id_hotel' => $this->integer()->notNull(),
             'estado' => $this->string(8)->notNull()->defaultValue('Activo'),
         ]);
 
@@ -80,6 +80,15 @@ class m190918_030834_sql extends Migration
             'id_tipo',
             'tipo_habitaciones',
             'id_tipo',
+            'CASCADE'
+        );
+
+        $this->addForeignKey(
+            'fk-asignacion_habitaciones-id_hotel',
+            'asignacion_habitaciones',
+            'id_hotel',
+            'hoteles',
+            'id_hotel',
             'CASCADE'
         );
 

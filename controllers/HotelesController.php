@@ -42,10 +42,10 @@ class HotelesController extends BaseApiController
         $model = new Hoteles;
         $model->attributes = Yii::$app->request->post();
     
-        if($model->validate() &&$model->save()){
+        if($model->validate() && $model->save()){
             return 'Guardado con exito';
         }else{
-            return json_encode($model->getErrors());
+            return  json_encode($model->getErrors());
         }
         
     }

@@ -9,8 +9,10 @@ use Yii;
  *
  * @property int $id_asignacion
  * @property int $id_tipo
+ * @property int $id_hotel
  * @property string $estado
  *
+ * @property Hoteles $hotel
  * @property TipoHabitaciones $tipo
  */
 class AsignacionHabitaciones extends \yii\db\ActiveRecord
@@ -29,10 +31,10 @@ class AsignacionHabitaciones extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id_tipo'], 'required'],
-            [['id_tipo'], 'default', 'value' => null],
-            [['id_tipo'], 'integer'],
+            [['id_tipo', 'id_hotel'], 'required'],
+            [['id_tipo', 'id_hotel'], 'integer'],
             [['estado'], 'string', 'max' => 8],
+            [['id_hotel'], 'exist', 'skipOnError' => true, 'targetClass' => Hoteles::className(), 'targetAttribute' => ['id_hotel' => 'id_hotel']],
             [['id_tipo'], 'exist', 'skipOnError' => true, 'targetClass' => TipoHabitaciones::className(), 'targetAttribute' => ['id_tipo' => 'id_tipo']],
         ];
     }
@@ -45,8 +47,17 @@ class AsignacionHabitaciones extends \yii\db\ActiveRecord
         return [
             'id_asignacion' => 'Id Asignacion',
             'id_tipo' => 'Id Tipo',
+            'id_hotel' => 'Id Hotel',
             'estado' => 'Estado',
         ];
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getHotel()
+    {
+        return $this->hasOne(Hoteles::className(), ['id_hotel' => 'id_hotel']);
     }
 
     /**

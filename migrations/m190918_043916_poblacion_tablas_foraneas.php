@@ -53,6 +53,6 @@ class m190918_043916_poblacion_tablas_foraneas extends Migration
      ============================================================ */
     public function safeDown()
     {
-        $this->dropTable('tipo_habitaciones');
+        $this->delete('tipo_habitaciones');
     }
 }
