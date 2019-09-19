@@ -1402,5 +1402,19 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/var/www/html"
+    "pickerWorkingDir": "/var/www/html",
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///var/www/html/gestor_hoteles",
+            "backupPath": "/var/www/html/gestor_hoteles/~/.vscode-root/Backups/2d9c2351488a1bcf370a33ae3795dddd",
+            "uiState": {
+                "mode": 0,
+                "x": 171,
+                "y": 25,
+                "width": 1024,
+                "height": 703
+            }
+        },
+        "openedWindows": []
+    }
 }

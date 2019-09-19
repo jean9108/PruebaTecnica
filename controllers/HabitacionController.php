@@ -6,6 +6,7 @@ use Yii;
 use yii\web\Controller;
 
 use app\models\Habitaciones;
+use app\models\Hoteles;
 use app\models\TipoHabitaciones;
 use app\models\AsignacionHabitaciones;
 
@@ -23,7 +24,7 @@ class HabitacionController extends Controller{
                 'rules' =>[
                     'actions' => [
                         'allow' => true,
-                        'actions' =>['index', 'view', 'create','update', 'delete'],
+                        'actions' =>['index', 'view', 'create','update', 'delete', 'habitacionesdisponibles'],
                         'roles' => ['?','@'],
                     ],
                 ],
@@ -72,6 +73,7 @@ class HabitacionController extends Controller{
             $data =[
                 'status' => 'success',
                 'code' => '200',
+                'habitaciones' => $model,
                 'acomodaciones' => $acomodaciones,
             ]; 
         }else{
@@ -88,13 +90,14 @@ class HabitacionController extends Controller{
     /*==========================================================================
     =============== Crear Asignacion de habitaciones del hotel ================
     ==========================================================================*/
-    public function actionCreate(){
+    public function actionCreate($id){
 
         $request = Yii::$app->request;
         $datos = json_decode($request->post('json'),true);
 
         $model = new AsignacionHabitaciones;
-       
+        $model->id_hotel = $id;
+
         if(isset($datos['id_habitacion']) && isset($datos['id_acomodacion'])):
             $tipo = TipoHabitaciones::find()
                 ->where('id_habitacion = :id_habitacion')
@@ -146,6 +149,41 @@ class HabitacionController extends Controller{
         return $data;
     }
     
+
+    public function actionHabitacionesdisponibles($id){
+        $sum = 0;
+        $model = AsignacionHabitaciones::find()
+            ->where('id_hotel = :id_hotel')
+            ->andWhere('estado = :estado')
+            ->addParams([
+                'id_hotel' => $id,
+                'estado' => 'Activo',
+            ])
+            ->sum('cantidad');
+
+            $hotel = Hoteles::find()
+            ->where('id_hotel = :id_hotel')
+            ->addParams(['id_hotel' => $id]) 
+            ->one();
+        
+        if($hotel != null){
+            $sum = $hotel->num_habitaciones - $model;
+            $data =[
+                'status' => 'success',
+                'code' => '200',
+                'cantidad' => $sum,
+            ]; 
+        }else{
+            $data =[
+                'status' => 'error',
+                'code' => '400',
+                'message' => 'No se encuentra el hotel',
+            ];
+        }
+
+         return $data;
+    }
+
     /*==========================================================================
     ============= Actualización de Asignacion de Habitaciones ==================
     ==========================================================================*/

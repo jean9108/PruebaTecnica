@@ -41,7 +41,7 @@ class Hoteles extends \yii\db\ActiveRecord
             [['nombre', 'direccion'], 'string', 'max' => 45],
             [['nit'], 'string', 'max' => 10],
             [['estado'], 'string', 'max' => 8],
-            ['nombre', 'validaHotel']
+            ['nombre', 'validaHotel', 'on' =>['crear_hotel']]
         ];
     }
 
@@ -92,7 +92,4 @@ class Hoteles extends \yii\db\ActiveRecord
 
        return false;
     }
-
-    
-
 }

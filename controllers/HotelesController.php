@@ -43,11 +43,11 @@ class HotelesController extends Controller
         ->all();
 
         if(!empty($model)){
-            $hoteles = ArrayHelper::map($model, 'id_hotel', 'nombre');
+            //$hoteles = ArrayHelper::map($model, 'id_hotel', 'nombre');
             $data =[
                 'status' => 'success',
                 'code' => '200',
-                'habitaciones' => $hoteles,
+                'hoteles' => $model,
             ];
         }else{
             $data =[
@@ -102,7 +102,8 @@ class HotelesController extends Controller
         $model->attributes = $hotel;
         $model->fecha_creacion = date_format($date, 'Y-m-d H:i:s');
 
-        if($model->validate() && $model->save()){
+        if($model->validate()){
+            $model->save();
             $data =[
                 'status' => 'success',
                 'code' => '200',

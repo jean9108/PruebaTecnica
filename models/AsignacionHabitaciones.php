@@ -114,6 +114,14 @@ class AsignacionHabitaciones extends \yii\db\ActiveRecord
             $message = 'Ya no hay mas habitaciones para asignar';
         endif;
 
+        if($this->cantidad > $hotel->num_habitaciones):
+            $message =  'La cantidad seleccionada tiene más habitaciones que el hotel';
+        endif;    
+
         return $message;
     }
+
+    
+
+
 }
