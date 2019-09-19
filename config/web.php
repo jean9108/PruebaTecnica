@@ -11,8 +11,11 @@ $config = [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
     ],
+    'timeZone' => 'America/Bogota', 
     'components' => [
+        
         'request' => [
+            'enableCsrfValidation' => false,
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'cQpcKyMs5oFIKb0EWGo2tcXDAZgO2_pi',
         ],
@@ -53,7 +56,16 @@ $config = [
                     'controller' => 'hoteles',
                     'pluralize' => false,
                 ],
+                [   'class' => 'yii\rest\UrlRule',
+                    'controller' => 'habitacion',
+                    'pluralize' => false,
+                ],
             ],
+        ],
+
+       'response' => [
+            'format' => \yii\web\Response::FORMAT_JSON,
+            'charset' => 'UTF-8',
         ],
     ],
     'params' => $params,

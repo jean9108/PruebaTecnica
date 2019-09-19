@@ -1,0 +1,3 @@
+[2019-09-18 22:16:14.753] [renderer5] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-09-18 22:16:14.775] [renderer5] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-09-18 22:16:15.132] [renderer5] [error] Failed to execute git

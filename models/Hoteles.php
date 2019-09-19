@@ -12,6 +12,8 @@ use Yii;
  * @property string $nit
  * @property string $direccion
  * @property int $num_habitaciones
+ * @property string $fecha_creacion
+ * @property string $fecha_actualizacion
  * @property string $estado
  */
 class Hoteles extends \yii\db\ActiveRecord
@@ -30,14 +32,24 @@ class Hoteles extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['nombre', 'nit', 'direccion', 'num_habitaciones'], 'required'],
+            [['nombre', 'nit', 'direccion', 'num_habitaciones'], 'required', 'message' => '{attribute} es requerido'],
+            [['fecha_creacion'], 'required', 'message' => 'No hay una fecha de creación', 'on' =>['crear_hotel']],
+            [['fecha_actualizacion'], 'required', 'message' => 'No hay una fecha de actualizacion', 'on' =>['modificar_hotel']],
             [['num_habitaciones'], 'default', 'value' => null],
             [['num_habitaciones'], 'integer'],
+            [['fecha_creacion', 'fecha_actualizacion'], 'safe'],
             [['nombre', 'direccion'], 'string', 'max' => 45],
             [['nit'], 'string', 'max' => 10],
             [['estado'], 'string', 'max' => 8],
             ['nombre', 'validaHotel']
         ];
+    }
+
+    public function scenarios(){
+        $scenarios = parent::scenarios();
+        $scenarios['crear_hotel'] = ['nombre', 'nit','direccion', 'num_habitaciones', 'fecha_creacion'];
+        $scenarios['modificar_hotel'] = ['nombre', 'nit','direccion', 'num_habitaciones', 'fecha_actualizacion'];
+        return $scenarios;
     }
 
     /**
@@ -49,8 +61,8 @@ class Hoteles extends \yii\db\ActiveRecord
             'id_hotel' => 'Id Hotel',
             'nombre' => 'Nombre',
             'nit' => 'Nit',
-            'direccion' => 'Direccion',
-            'num_habitaciones' => 'Num Habitaciones',
+            'direccion' => 'Dirección',
+            'num_habitaciones' => 'Número de Habitaciones',
             'estado' => 'Estado',
         ];
     }

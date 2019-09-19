@@ -1,0 +1,8 @@
+[2019-09-18 22:24:30.603] [renderer6] [error] Illegal argument: Error: Illegal argument
+    at Object.t.illegalArgument (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:34:709)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1750:511
+    at c.CommandsRegistry.registerCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1699:173)
+    at d.invokeFunction (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1485:11)
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:435)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+    at process._tickCallback (internal/process/next_tick.js:68:7)

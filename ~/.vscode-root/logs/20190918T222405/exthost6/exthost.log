@@ -1,0 +1,55 @@
+[2019-09-18 22:24:07.596] [exthost] [info] extension host started
+[2019-09-18 22:24:07.627] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-09-18 22:24:07.627] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-09-18 22:24:07.633] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-09-18 22:24:07.633] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-09-18 22:24:07.664] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-09-18 22:24:07.664] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2019-09-18 22:24:07.730] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-09-18 22:24:07.731] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-09-18 22:24:07.739] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"activationEvent":"*"}
+[2019-09-18 22:24:07.739] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.826/out/prod/extension-prod
+[2019-09-18 22:24:08.245] [exthost] [info] eager extensions activated
+[2019-09-18 22:24:24.767] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2019-09-18 22:24:24.768] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-09-18 22:24:25.023] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2019-09-18 22:24:25.023] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/markdown-language-features/dist/extension
+[2019-09-18 22:24:25.836] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"activationEvent":"onLanguage:css"}
+[2019-09-18 22:24:25.836] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/css-language-features/client/dist/cssMain
+[2019-09-18 22:24:26.091] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-09-18 22:24:26.091] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-09-18 22:24:27.240] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-18 22:24:27.241] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-09-18 22:24:27.326] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-18 22:24:27.327] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-09-18 22:24:28.234] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-18 22:24:28.234] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/main
+[2019-09-18 22:24:28.479] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-09-18 22:24:28.480] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2019-09-18 22:24:30.541] [exthost] [error] [ms-vsliveshare.vsliveshare] provider FAILED
+[2019-09-18 22:24:30.558] [exthost] [error] Error: Illegal argument
+    at Object.t.illegalArgument (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:34:709)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1750:511
+    at c.CommandsRegistry.registerCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1699:173)
+    at d.invokeFunction (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1485:11)
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:435)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-18 22:24:30.558] [exthost] [error] [ms-vsliveshare.vsliveshare] provider FAILED
+[2019-09-18 22:24:30.558] [exthost] [error] Error: Illegal argument
+    at Object.t.illegalArgument (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:34:709)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1750:511
+    at c.CommandsRegistry.registerCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1699:173)
+    at d.invokeFunction (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1485:11)
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:435)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-18 22:24:30.558] [exthost] [error] [ms-vsliveshare.vsliveshare] provider FAILED
+[2019-09-18 22:24:30.558] [exthost] [error] Error: Illegal argument
+    at Object.t.illegalArgument (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:34:709)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1750:511
+    at c.CommandsRegistry.registerCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1699:173)
+    at d.invokeFunction (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1485:11)
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:435)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+    at process._tickCallback (internal/process/next_tick.js:68:7)

@@ -1,0 +1,24 @@
+[2019-09-18 20:41:14.089] [exthost] [info] extension host started
+[2019-09-18 20:41:14.101] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-09-18 20:41:14.101] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-09-18 20:41:14.104] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-09-18 20:41:14.105] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-09-18 20:41:14.165] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-09-18 20:41:14.165] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2019-09-18 20:41:14.291] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-09-18 20:41:14.291] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-09-18 20:41:14.297] [exthost] [info] eager extensions activated
+[2019-09-18 20:41:23.043] [exthost] [info] extension host started
+[2019-09-18 20:41:23.061] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-09-18 20:41:23.061] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-09-18 20:41:23.066] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-09-18 20:41:23.066] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-09-18 20:41:23.148] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-09-18 20:41:23.148] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2019-09-18 20:41:23.341] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-09-18 20:41:23.341] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-09-18 20:41:23.356] [exthost] [info] eager extensions activated
+[2019-09-18 20:41:35.751] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-09-18 20:41:35.751] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2019-09-18 22:11:47.524] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":false,"activationEvent":"*"}
+[2019-09-18 22:11:47.524] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.826/out/prod/extension-prod

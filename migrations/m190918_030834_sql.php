@@ -20,6 +20,8 @@ class m190918_030834_sql extends Migration
             'nit' => $this->string(10)->notNull(),
             'direccion' => $this->string(45)->notNull(),
             'num_habitaciones' => $this->integer(5)->notNull(),
+            'fecha_creacion' => $this->timestamp(),
+            'fecha_actualizacion' => $this->timestamp(), 
             'estado' => $this->string(8)->notNull()->defaultValue('Activo'),
         ]);
         
@@ -50,6 +52,7 @@ class m190918_030834_sql extends Migration
             'id_asignacion' => $this->primaryKey(),
             'id_tipo' => $this->integer()->notNull(),
             'id_hotel' => $this->integer()->notNull(),
+            'cantidad' => $this->integer()->notNull(),
             'estado' => $this->string(8)->notNull()->defaultValue('Activo'),
         ]);
 

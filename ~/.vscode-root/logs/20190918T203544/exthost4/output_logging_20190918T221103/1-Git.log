@@ -1,0 +1,34 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git ( o ningún padre en el punto de montado /run)
+Parando en el límite del sistema de archivos (GIT_DISCOVERY_ACROSS_FILESYSTEM no establecido).
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git ( o ningún padre en el punto de montado /)
+Parando en el límite del sistema de archivos (GIT_DISCOVERY_ACROSS_FILESYSTEM no establecido).
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git

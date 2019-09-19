@@ -1,0 +1,44 @@
+[2019-09-18 20:36:23.967] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-09-18 20:36:23.989] [renderer1] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-09-18 22:14:19.258] [renderer1] [error] command 'liveshare.startFromActivityBar' not found: Error: command 'liveshare.startFromActivityBar' not found
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:288)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-18 22:14:23.262] [renderer1] [error] command 'liveshare.startFromActivityBar' not found: Error: command 'liveshare.startFromActivityBar' not found
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:288)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+[2019-09-18 22:14:35.027] [renderer1] [error] command 'liveshare.startFromActivityBar' not found: Error: command 'liveshare.startFromActivityBar' not found
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:288)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+[2019-09-18 22:14:36.135] [renderer1] [error] command 'liveshare.startFromActivityBar' not found: Error: command 'liveshare.startFromActivityBar' not found
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:288)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+[2019-09-18 22:14:38.356] [renderer1] [error] command 'liveshare.joinFromActivityBar' not found: Error: command 'liveshare.joinFromActivityBar' not found
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:288)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+[2019-09-18 22:14:39.492] [renderer1] [error] command 'liveshare.startFromActivityBar' not found: Error: command 'liveshare.startFromActivityBar' not found
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:288)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+[2019-09-18 22:14:50.275] [renderer1] [error] command 'liveshare.startReadOnlyFromActivityBar' not found: Error: command 'liveshare.startReadOnlyFromActivityBar' not found
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:288)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-18 22:14:51.265] [renderer1] [error] command 'liveshare.startFromActivityBar' not found: Error: command 'liveshare.startFromActivityBar' not found
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:288)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+[2019-09-18 22:15:12.734] [renderer1] [error] command 'liveshare.startReadOnlyFromActivityBar' not found: Error: command 'liveshare.startReadOnlyFromActivityBar' not found
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:288)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-18 22:15:16.288] [renderer1] [error] command 'liveshare.startFromActivityBar' not found: Error: command 'liveshare.startFromActivityBar' not found
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:288)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+[2019-09-18 22:15:19.783] [renderer1] [error] command 'liveshare.joinFromActivityBar' not found: Error: command 'liveshare.joinFromActivityBar' not found
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:288)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+[2019-09-18 22:15:20.504] [renderer1] [error] command 'liveshare.startFromActivityBar' not found: Error: command 'liveshare.startFromActivityBar' not found
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:288)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)
+[2019-09-18 22:15:21.563] [renderer1] [error] command 'liveshare.startFromActivityBar' not found: Error: command 'liveshare.startFromActivityBar' not found
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:288)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3269:169)

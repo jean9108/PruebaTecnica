@@ -1,0 +1,4 @@
+[2019-09-18 22:27:49.629] [renderer6] [warning] UNRESPONSIVE extension host, 'vscode.git' took 95% of 381.945ms, saved PROFILE here: '/tmp/exthost-69f822.cpuprofile' [{"id":"program","total":312,"percentage":0},{"id":"self","total":1731,"percentage":0},{"id":"vscode.git","total":360977,"percentage":95},{"id":"vscode.merge-conflict","total":205,"percentage":0}]
+[2019-09-18 22:27:51.261] [renderer6] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-09-18 22:27:51.355] [renderer6] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-09-18 22:27:56.059] [renderer6] [error] Failed to execute git

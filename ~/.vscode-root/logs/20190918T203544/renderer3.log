@@ -1,0 +1,4 @@
+[2019-09-18 20:41:26.008] [renderer3] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-09-18 20:41:26.024] [renderer3] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-09-18 22:12:07.829] [renderer3] [error] ENOENT: no such file or directory, unlink '/root/.local/share/vsliveshare/cascade.json': Error: ENOENT: no such file or directory, unlink '/root/.local/share/vsliveshare/cascade.json'
+[2019-09-18 22:12:07.980] [renderer3] [error] Failed to execute git

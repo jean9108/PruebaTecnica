@@ -51,8 +51,13 @@ class Habitaciones extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getTipoHabitaciones()
+    public function getTipohabitaciones()
     {
         return $this->hasMany(TipoHabitaciones::className(), ['id_habitacion' => 'id_habitacion']);
+    }
+
+    public function getAcomodaciones(){
+        return $this->hasMany(Acomodaciones::className(),['id_acomodacion' => 'id_acomodacion'])
+        ->viaTable('tipo_habitaciones',['id_habitacion' => 'id_habitacion']);
     }
 }

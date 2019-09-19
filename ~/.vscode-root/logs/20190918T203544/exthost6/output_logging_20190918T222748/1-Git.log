@@ -1,0 +1,306 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /var/www/html/gestor_hoteles
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git config --global user.email
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :config/db.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :migrations/m190918_030834_sql.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :models/Acomodaciones.php
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :models/Acomodaciones.php
+> git show :models/Hoteles.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Hoteles.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Habitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Hoteles.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :migrations/m190918_043916_poblacion_tablas_foraneas.php
+> git show :migrations/m190918_030834_sql.php
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/AsignacionHabitaciones.php
+> git show :migrations/m190918_030834_sql.php
+> git show :controllers/HotelesController.php
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HotelesController.php
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :models/Hoteles.php
+> git show :controllers/HotelesController.php
+> git show :models/Hoteles.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Hoteles.php
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :config/web.php
+> git check-ignore -v -z --stdin
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Hoteles.php
+> git show :controllers/HotelesController.php
+> git show :models/Hoteles.php
+> git show :config/web.php
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HotelesController.php
+> git show :models/Hoteles.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :models/Hoteles.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Hoteles.php
+> git show :controllers/HotelesController.php
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :models/Hoteles.php
+> git show :controllers/HotelesController.php
+> git show :models/Hoteles.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/BaseApiController.php
+> git show :migrations/m190918_030834_sql.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :migrations/m190918_030834_sql.php
+> git show :controllers/HotelesController.php
+> git show :models/Hoteles.php
+> git show :models/Habitaciones.php
+> git show :models/Hoteles.php
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HotelesController.php
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/AsignacionHabitaciones.php
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :models/Hoteles.php
+> git show :models/AsignacionHabitaciones.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :views/layouts/main.php
+> git check-ignore -v -z --stdin
+> git show :web/index.php
+> git show :views/layouts/main.php
+> git show :controllers/HotelesController.php
+> git show :config/web.php
+> git show :controllers/HotelesController.php
+> git show :views/layouts/main.php
+> git show :controllers/HotelesController.php
+> git show :models/Hoteles.php
+> git show :config/console.php
+> git show :controllers/HotelesController.php
+> git show :config/web.php
+> git show :controllers/HotelesController.php
+> git show :config/web.php
+> git show :controllers/HotelesController.php
+> git show :models/Hoteles.php
+> git show :controllers/HotelesController.php
+> git show :models/Hoteles.php
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
+> git show :controllers/HotelesController.php
+> git show :controllers/HabitacionController.php
+> git ls-files --stage -- controllers/
